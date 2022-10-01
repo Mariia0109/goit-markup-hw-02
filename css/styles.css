@@ -132,7 +132,6 @@ ul {
 }
 
 .part-list .inform {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -149,7 +148,6 @@ ul {
 }
 
 .team-list .img .team-inform {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -183,6 +181,7 @@ ul {
 .button-part .item {
     color: var(--title-text-color);
     background-color: var(--third-bg-color);
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -203,7 +202,6 @@ ul {
 }
 
 .img .section-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -211,10 +209,10 @@ ul {
 }
 
 .img .work-page {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 /* bottom */
@@ -225,8 +223,8 @@ ul {
 
 li .bottom-item {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -242,7 +240,6 @@ li .adress-element {
     color: var(--primary-bg-color);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
